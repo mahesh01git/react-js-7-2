@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  margin-bottom: 10px;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.suggestion-text {
+  margin: 0;
+}
+
+.arrow {
+  height: 15px;
+  width: 15px;
+}
+.button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 2px;
+  cursor: pointer;
+}

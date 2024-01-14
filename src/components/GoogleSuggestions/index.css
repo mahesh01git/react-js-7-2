@@ -1,0 +1,47 @@
+/* Write your CSS here */
+
+.app-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 120px;
+  width: 320px;
+  margin-bottom: 20px;
+}
+
+.search-con {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0px 0px 10px 0px #bfbfbf;
+  padding: 20px;
+}
+.input-con {
+  display: flex;
+  justify-content: flex-start;
+}
+.ul-con {
+  margin: 0;
+}
+.icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+.input {
+  border: none;
+  outline: none;
+  color: #64748b;
+}
